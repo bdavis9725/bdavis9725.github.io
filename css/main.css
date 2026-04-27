@@ -1,18 +1,18 @@
 /* =================================================================== */
 /*	 TOC:
-/*  01. =webfonts and iconfonts
-/*  02. =document setup
-/*  03. =preloader
-/*  04. =forms
-/*  05. =theme common styles
-/*  06. =header styles
-/*  07. =hero section
-/*  08. =education styles
-/*  09. =services
-/*  10. =about
-/*  11. =testimonials
-/*  12. =contact
-/*  13. =footer
+/* 01. =webfonts and iconfonts
+/* 02. =document setup
+/* 03. =preloader
+/* 04. =forms
+/* 05. =theme common styles
+/* 06. =header styles
+/* 07. =hero section
+/* 08. =education styles
+/* 09. =services
+/* 10. =about
+/* 11. =testimonials
+/* 12. =contact
+/* 13. =footer
 /*
 /* =================================================================== */
 
@@ -37,9 +37,9 @@ body {
 
 body {
 	background: #0F1215;
-	font: 16px/30px "merriweather-regular", serif;
+	font: 16px/30px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 	font-weight: normal;
-	color: #575859;
+	color: #9ca3af;
 }
 
 /* links
@@ -57,7 +57,7 @@ a:visited {
 
 a:hover,
 a:focus {
-	color: #b80900;
+	color: #0ea5e9;
 }
 
 /* Typography
@@ -138,19 +138,19 @@ p img {
 }
 
 p.lead {
-	font: 20px/36px "merriweather-light", serif;
+	font: 20px/36px system-ui, -apple-system, sans-serif;
 	color: #707273;
 }
 
 em {
-	font: 16px/30px "merriweather-italic", serif;
-	font-style: normal;
+	font: 16px/30px system-ui, -apple-system, sans-serif;
+	font-style: italic;
 }
 
 strong,
 b {
-	font: 16px/30px "merriweather-bold", serif;
-	font-weight: normal;
+	font: 16px/30px system-ui, -apple-system, sans-serif;
+	font-weight: bold;
 }
 
 small {
@@ -202,7 +202,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-	font-family: "merriweather-bold", serif;
+	font-family: system-ui, -apple-system, sans-serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .5px;
@@ -224,7 +224,7 @@ code {
 	padding: 3px;
 	background: #ECF0F1;
 	color: #707273;
-	border-radius: 3px;
+	border-radius: 6px;
 }
 
 del {
@@ -269,7 +269,7 @@ dl {
 
 dt {
 	margin: 0;
-	color: #b80900;
+	color: #0ea5e9;
 }
 
 dd {
@@ -376,7 +376,7 @@ img.pull-left {
 	height: 50px;
 	margin-left: -25px;
 	margin-top: -25px;
-	background-color: #b80900;
+	background-color: #0ea5e9;
 	-webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
 	animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
@@ -449,7 +449,7 @@ select {
 	font-family: "raleway-bold", sans-serif;
 	font-size: 15px;
 	line-height: 24px;
-	border-radius: 3px;
+	border-radius: 6px;
 	max-width: 100%;
 	background: rgba(255, 255, 255, 0.1);
 	-moz-transition: all 0.3s ease-in-out;
@@ -482,7 +482,7 @@ input[type="button"] {
 	font: 16px/30px "raleway-heavy", sans-serif;
 	padding: 9px 16px;
 	margin: 0 3px 6px 0;
-	background: #b80900;
+	background: #0ea5e9;
 	color: #000000;
 	text-decoration: none;
 	cursor: pointer;
@@ -491,7 +491,7 @@ input[type="button"] {
 	border: none;
 	-webkit-appearance: none;
 	-webkit-font-smoothing: inherit;
-	border-radius: 3px;
+	border-radius: 6px;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -505,7 +505,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
 	color: #FFFFFF;
-	background: #e64e04;
+	background: #0284c7;
 }
 
 label,
@@ -572,18 +572,18 @@ hr {
 }
 
 .section-head h1 span {
-	color: #b80900;
+	color: #0ea5e9;
 	position: relative;
 	left: 3px;
 }
 
 .section-head p {
-	font: 20px/36px "merriweather-light", serif;
+	font: 20px/36px system-ui, -apple-system, sans-serif;
 	width: 95%;
 }
 
 .section-head:hover h1 + hr {
-	border-color: #b80900;
+	border-color: #0ea5e9;
 	width: 120px;
 	text-align: left;
 }
@@ -594,7 +594,7 @@ hr {
 	}
 
 	.section-head p {
-		font: 18px/36px "merriweather-light", serif;
+		font: 18px/36px system-ui, -apple-system, sans-serif;
 		width: auto;
 	}
 
@@ -607,7 +607,7 @@ hr {
 
 @media only screen and (max-width:600px) {
 	.section-head p {
-		font: 17px/33px "merriweather-light", serif;
+		font: 17px/33px system-ui, -apple-system, sans-serif;
 		width: auto;
 	}
 
@@ -647,7 +647,7 @@ header.opaque {
 
 /* header logo */
 header .logo {
-	background: #b80900;
+	background: #0ea5e9;
 	float: left;
 	width: auto;
 	margin-left: 15px;
@@ -697,7 +697,7 @@ header .header-social li a {
 }
 
 header .header-social li a:hover {
-	color: #b80900;
+	color: #0ea5e9;
 }
 
 /* media queries:
@@ -783,7 +783,7 @@ ul#nav li a {
 }
 
 ul#nav li a:hover {
-	color: #b80900;
+	color: #0ea5e9;
 }
 
 ul#nav li a:active {
@@ -791,7 +791,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-	color: #b80900;
+	color: #0ea5e9;
 }
 
 ul#nav li.current a:after {
@@ -854,7 +854,7 @@ ul#nav li.current a:after {
 		top: 50%;
 		bottom: auto;
 		left: auto;
-		background: #b80900;
+		background: #0ea5e9;
 		-moz-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
 		-webkit-transition: all 0.3s ease-in-out;
@@ -927,7 +927,7 @@ ul#nav li.current a:after {
 
 	#nav-wrap ul#nav li.current > a {
 		background: none;
-		color: #b80900;
+		color: #0ea5e9;
 	}
 
 	#nav-wrap ul#nav li.current > a:after {
@@ -1031,7 +1031,7 @@ ul#nav li.current a:after {
 
 #hero-slider .slides .flex-caption h1::after {
 	display: block;
-	background-color: #b80900;
+	background-color: #0ea5e9;
 	width: 100px;
 	height: 3px;
 	content: '\0020';
@@ -1041,7 +1041,7 @@ ul#nav li.current a:after {
 }
 
 #hero-slider .slides .flex-caption h3 {
-	font: 18px/1.9 "merriweather-light", sans-serif;
+	font: 18px/1.9 system-ui, -apple-system, sans-serif;
 	color: white;
 	text-shadow: 5px 5px 15px #000000;
 	width: 85%;
@@ -1111,7 +1111,7 @@ ul#nav li.current a:after {
 	}
 
 	#hero-slider .slides .flex-caption h3 {
-		font: 16px/1.9 "merriweather-light", sans-serif;
+		font: 16px/1.9 system-ui, -apple-system, sans-serif;
 		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
@@ -1142,7 +1142,7 @@ ul#nav li.current a:after {
 	}
 
 	#hero-slider .slides .flex-caption h3 {
-		font: 16px/1.9 "merriweather-light", sans-serif;
+		font: 16px/1.9 system-ui, -apple-system, sans-serif;
 		width: 85%;
 	}
 
@@ -1167,7 +1167,7 @@ ul#nav li.current a:after {
 	}
 
 	#hero-slider .slides .flex-caption h3 {
-		font: 15px/1.9 "merriweather-light", sans-serif;
+		font: 15px/1.9 system-ui, -apple-system, sans-serif;
 		width: 90%;
 	}
 
@@ -1248,7 +1248,7 @@ ul#nav li.current a:after {
 }
 
 #hero .flex-control-paging li a.flex-active {
-	background: #b80900;
+	background: #0ea5e9;
 	cursor: default;
 }
 
@@ -1278,8 +1278,8 @@ ul#nav li.current a:after {
 	display: block;
 	height: 54px;
 	width: 200px;
-	border-radius: 3px;
-	background: #e64e04;
+	border-radius: 6px;
+	background: #0284c7;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 	color: #FFFFFF;
 	-moz-transition: all 0.4s ease-on-out;
@@ -1290,7 +1290,7 @@ ul#nav li.current a:after {
 }
 
 #hero #more a:hover {
-	background: #b80900;
+	background: #0ea5e9;
 	color: #000000;
 }
 
@@ -1535,7 +1535,7 @@ ul#nav li.current a:after {
 }
 
 .popup-modal .description-box p {
-	font: 14px/24px "merriweather-regular", serif;
+	font: 14px/24px system-ui, -apple-system, sans-serif;
 	color: #A1A1A1;
 	margin-bottom: 12px;
 }
@@ -1579,7 +1579,7 @@ ul#nav li.current a:after {
 }
 
 .popup-modal .link-box a:hover {
-	background: #b80900;
+	background: #0ea5e9;
 	color: #000000;
 	border: none;
 }
@@ -1711,7 +1711,7 @@ ul#nav li.current a:after {
 
 #services .service-list h3 {
 	font: 18px/36px "raleway-heavy", sans-serif;
-	color: #b80900;
+	color: #0ea5e9;
 	padding: 0;
 	text-transform: none;
 	text-align: left;
@@ -1767,7 +1767,7 @@ ul#nav li.current a:after {
 
 #about h3 {
 	font: 18px/36px "raleway-heavy", sans-serif;
-	color: #b80900;
+	color: #0ea5e9;
 	text-transform: none;
 	letter-spacing: 0;
 	padding: 0;
@@ -1941,7 +1941,7 @@ ul#nav li.current a:after {
 }
 
 #call-to-action p {
-	font: 20px/36px "merriweather-light", serif;
+	font: 20px/36px system-ui, -apple-system, sans-serif;
 	color: #707273;
 	width: 75%;
 }
@@ -1959,7 +1959,7 @@ ul#nav li.current a:after {
 }
 
 #call-to-action h2 span {
-	color: #b80900;
+	color: #0ea5e9;
 }
 
 #call-to-action h2 a,
@@ -1981,8 +1981,8 @@ ul#nav li.current a:after {
 	padding: 0 30px;
 	max-width: 400px;
 	width: 100%;
-	background: #e64e04;
-	border-radius: 3px;
+	background: #0284c7;
+	border-radius: 6px;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 	margin: 24px auto 0;
 	-moz-transition: all 0.5s ease-in-out;
@@ -1993,7 +1993,7 @@ ul#nav li.current a:after {
 }
 
 #call-to-action .action a:hover {
-	background: #b80900;
+	background: #0ea5e9;
 	color: #000000;
 }
 
@@ -2009,7 +2009,7 @@ ul#nav li.current a:after {
 	}
 
 	#call-to-action p {
-		font: 18px/33px "merriweather-light", serif;
+		font: 18px/33px system-ui, -apple-system, sans-serif;
 		width: 80%;
 	}
 
@@ -2026,7 +2026,7 @@ ul#nav li.current a:after {
 	}
 
 	#call-to-action p {
-		font: 16px/30px "merriweather-light", serif;
+		font: 16px/30px system-ui, -apple-system, sans-serif;
 	}
 
 }
@@ -2060,7 +2060,7 @@ ul#nav li.current a:after {
 }
 
 #testimonial-slider p {
-	font: 27px/1.9 "merriweather-regular", sans-serif;
+	font: 27px/1.9 system-ui, -apple-system, sans-serif;
 	color: #FFFFFF;
 	padding: 0;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
@@ -2144,7 +2144,7 @@ ul#nav li.current a:after {
 	}
 
 	#testimonial-slider p {
-		font: 25px/1.9 "merriweather-regular", sans-serif;
+		font: 25px/1.9 system-ui, -apple-system, sans-serif;
 	}
 
 }
@@ -2155,7 +2155,7 @@ ul#nav li.current a:after {
 	}
 
 	#testimonial-slider p {
-		font: 22px/1.9 "merriweather-regular", sans-serif;
+		font: 22px/1.9 system-ui, -apple-system, sans-serif;
 	}
 
 }
@@ -2166,7 +2166,7 @@ ul#nav li.current a:after {
 	}
 
 	#testimonial-slider p {
-		font: 20px/1.9 "merriweather-regular", sans-serif;
+		font: 20px/1.9 system-ui, -apple-system, sans-serif;
 	}
 
 	#testimonial-slider .testimonial-author {
@@ -2191,7 +2191,7 @@ ul#nav li.current a:after {
 	}
 
 	#testimonial-slider p {
-		font: 18px/1.9 "merriweather-regular", sans-serif;
+		font: 18px/1.9 system-ui, -apple-system, sans-serif;
 	}
 
 }
@@ -2210,7 +2210,7 @@ ul#nav li.current a:after {
 
 #contact h3 {
 	font: 18px/36px "raleway-heavy", sans-serif;
-	color: #b80900;
+	color: #0ea5e9;
 	padding: 0;
 	margin-bottom: 6px;
 }
@@ -2247,7 +2247,7 @@ ul#nav li.current a:after {
 	}
 
 	#contact .right p.lead {
-		font: 18px/36px "merriweather-light", serif;
+		font: 18px/36px system-ui, -apple-system, sans-serif;
 	}
 
 }
@@ -2259,7 +2259,7 @@ ul#nav li.current a:after {
 	}
 
 	#contact .right p.lead {
-		font: 17px/33px "merriweather-light", serif;
+		font: 17px/33px system-ui, -apple-system, sans-serif;
 	}
 
 }
@@ -2297,11 +2297,11 @@ ul#nav li.current a:after {
 	position: absolute;
 	bottom: 3px;
 	right: 6px;
-	border-radius: 3px;
+	border-radius: 6px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 0 20px;
-	color: #e64e04;
+	color: #0284c7;
 }
 
 input[type="text"],
@@ -2328,18 +2328,18 @@ input[type="email"],
 #message-success {
 	display: none;
 	background: #0F1215;
-	border-radius: 3px;
+	border-radius: 6px;
 	padding: 24px;
 	margin-bottom: 36px;
 	width: 100%;
 }
 
 #message-warning {
-	color: #e64e04;
+	color: #0284c7;
 }
 
 #message-success {
-	color: #b80900;
+	color: #0ea5e9;
 }
 
 #message-warning i,
@@ -2472,7 +2472,7 @@ footer a:visited {
 
 footer a:hover,
 footer a:focus {
-	color: #b80900;
+	color: #0ea5e9;
 }
 
 footer hr {
@@ -2609,11 +2609,11 @@ footer .social-links li:first-child {
 	height: 54px;
 	width: 200px;
 	margin-left: -100px;
-	background: #e64e04;
+	background: #0284c7;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 	color: #FFFFFF;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: 6px;
 	font: 12px/54px "raleway-heavy", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -2625,7 +2625,7 @@ footer .social-links li:first-child {
 }
 
 #go-top a:hover {
-	background: #b80900;
+	background: #0ea5e9;
 	color: #000000;
 }
 
